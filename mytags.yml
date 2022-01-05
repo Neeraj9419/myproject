@@ -14,9 +14,9 @@
      name: tree
      state: present
 
-  - name: install tree
+  - name: install wget
     apt:
-     name: tree
+     name: wget
      state: present
  
     
