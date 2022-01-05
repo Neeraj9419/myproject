@@ -15,11 +15,11 @@
     apt: 
      name: git
      state: present
-    when: myfirsttaskvar==""
+    when: myfirsttaskvar.stderr==""
 
   - name: install tree
     apt:
      name: tree
      state: present
-    when: myfirsttaskvar !=""
+    when: myfirsttaskvar.stderr!=""
     
