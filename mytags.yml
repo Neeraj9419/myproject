@@ -20,6 +20,6 @@
     apt:
      name: wget
      state: present
-    tags: wget
+    tags: mywget
  
     
