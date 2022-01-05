@@ -9,4 +9,17 @@
   - name: i want to display first task result
     debug:
         msg: "{{ myfirsttaskvar }}" 
+
+  
+  - name: install git 
+    apt: 
+     name: git
+     state: present
+    when: myfirsttaskvar==""
+
+  - name: install tree
+    apt:
+     name: tree
+     state: present
+    when: myfirsttaskvar !=""
     
