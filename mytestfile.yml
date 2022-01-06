@@ -18,4 +18,4 @@
   handlers: 
   - name: repetedtasks
     debug:
-        msg: "{{abnsible_os_family}}"
+        msg: "{{ansible_os_family}}"
