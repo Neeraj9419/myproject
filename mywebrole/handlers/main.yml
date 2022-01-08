@@ -1,2 +1,5 @@
 ---
 # handlers file for mywebrole
+-name: debug vars
+ debug:
+    msg: "{{ansible_os_family}}"
