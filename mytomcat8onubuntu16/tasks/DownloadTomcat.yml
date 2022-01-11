@@ -7,8 +7,8 @@
 
 - name: create  /opt/tomcat directory
   file:
-    path: /opt/tomcat
-    state: directory
+     path: /opt/tomcat
+     state: directory
 
 - name: i want to extract tar file, when it alredy exists, this step will not be run
   command: 
