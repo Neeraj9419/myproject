@@ -14,5 +14,5 @@
        vpc_subnet_id: subnet-0c437810b070c3ee9
        assign_public_ip: yes
        instance_tags:
-           Name: ansibleNodes
+           Name: togeneratemanynodes
 
