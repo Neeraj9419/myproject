@@ -8,7 +8,7 @@
        instance_type: t2.micro
        image: ami-06d49441f61128762
        wait: yes
-       group: MYALL
+       group: default
        count: 2
        region: us-east-2
        vpc_subnet_id: subnet-0c437810b070c3ee9
